@@ -1,0 +1,55 @@
+.login-container{
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 9, 0.3);
+    
+}
+.login-container h2 {
+    font-weight: bold;
+    
+  }
+  ul.pagination-lg.heading {
+    list-style-type: none !important; /* Ensure no bullet points */
+    padding-left: 0 !important; /* Remove default padding */
+    margin: 0 !important; /* Reset margin */
+  }
+  
+  ul.pagination-lg.heading .page-item {
+    list-style: none !important; /* Ensure no list-style for items */
+  }
+  .login-container .form-text {
+    margin-bottom: 15px;
+  }
+  .login-container .btn-primary {
+    background-color: #6a0dad;
+    border-color: #6a0dad;
+  }
+  .button1{
+    width: 100%;
+  }
+  .pics{
+    height: 50%;
+   width: 80%;
+  }
+
+  .btn1{
+
+  }
+  .btn2{
+
+  }
+  .btn3{
+
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .page-link{
+    padding: 5px 10px;
+    height: 100%;
+    font-size: 10px;
+  }
+  
