@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteEmployee } from './emploSlice'; 
@@ -20,9 +21,9 @@ const Employeedata = () => {
     return (
         <div className="container mt-5">
         <h2 className="mb-4">Employee Data</h2>
-        <div className="table-responsive responsive" style={{ maxHeight: "400px", overflowY: "auto" }}>
-                <table className="table table-bordered table-striped">
-                    <thead className="table-primary text-center align-middle">
+        <div className="table-responsive" style={{ maxHeight: "400px", overflowY: "auto" }}>
+            <table className="table table-bordered table-striped">
+                <thead className="table-primary text-center align-middle">
                         <tr>
                             <th>S.NO.</th>
                             <th>ID</th>

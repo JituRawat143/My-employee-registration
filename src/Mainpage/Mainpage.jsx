@@ -35,7 +35,7 @@ const drawerWidth = 240;
 const Main = styled('main')(({ theme }) => ({
   flexGrow: 1,
   padding: theme.spacing(3),
-  marginTop: theme.spacing(6),
+  marginTop: theme.spacing(6), // Adjust this based on the height of your navbar
 }));
 
 const AppBar = styled(MuiAppBar)(({ theme }) => ({
@@ -121,7 +121,7 @@ function Mainpage() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar position="fixed">
+      <AppBar position="fixed" className="app-bar">
         <Toolbar>
           <IconButton
             color="inherit"
