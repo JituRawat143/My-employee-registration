@@ -16,11 +16,13 @@
         width: 100%; /* Make buttons full-width on small screens */
       }
     
-      .pics {
-        max-width: 100%; /* Ensure image fits within container */
-        height: auto; /* Maintain aspect ratio */
-      }
+     
     }
+}
+@media (max-width: 991.98px) {
+  .pics {
+      display: none; /* Hides image on small screens */
+  }
 }
 .login-container h2 {
     font-weight: bold;
